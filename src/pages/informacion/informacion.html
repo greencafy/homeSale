@@ -26,51 +26,23 @@
         officiis a distinctio?
     </p>
 
-    <ion-card>
-
-        <img src="../../assets/imgs/card-amsterdam.png">
-        <ion-fab left top>
-            <button ion-fab (click)="llevame()">
-            <ion-icon name="pin"></ion-icon>
-          </button>
-        </ion-fab>
-
-        <ion-item>
-            <ion-icon name="home" item-start large></ion-icon>
-            <h2>Habitaciones</h2>
-            <p>4</p>
-        </ion-item>
-
-        <ion-item>
-            <ion-icon name="restaurant" item-start large></ion-icon>
-            <h2>Comedor</h2>
-            <p>1</p>
-        </ion-item>
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../../assets/imgs/card-amsterdam.png">
+                    <span class="card-title">Detalles de la casa</span>
+                    <a (click)="llevame()" class="btn-floating halfway-fab waves-effect waves-light primary"><i class="material-icons">place
+                    </i></a>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-        <ion-item>
-            <ion-icon name="car" item-start large></ion-icon>
-            <h2>Garage</h2>
-            <p>1</p>
-        </ion-item>
-
-        <ion-item>
-            <ion-icon name="man" item-start large></ion-icon>
-            <ion-icon name="woman" item-start large></ion-icon>
-            <h2>Baños completos</h2>
-            <p> 2</p>
-        </ion-item>
-
-        <ion-item>
-            <ion-icon name="call" item-start large></ion-icon>
-            <h2>Contacto:</h2>
-            <h3>Sr / Sra</h3>
-            <p> 550011122</p>
-        </ion-item>
-
-
-
-    </ion-card>
 
 
 </ion-content>
